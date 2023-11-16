@@ -1,3 +1,6 @@
+<?php 
+  include('traitement.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,9 +12,11 @@
   </head>
   <body>
     <header>header</header>
-    <main>
+    <main class="container">
       <section>section 1</section>
       <section>section 2</section>
+      <button id="calc-button">calculer</button>
     </main>
+    <script src="./js/code.js"></script>
   </body>
 </html>
